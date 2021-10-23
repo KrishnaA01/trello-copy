@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,500&display=swap');
+
+*{
+    font-family:'Roboto', sans-serif;
+    
+}
+
+.park-container{
+    background-color: white;
+    border: white;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgb(216, 210, 210);
+    padding: 5px;
+    margin: 5px;
+  
+}
+.park-container p{
+    padding:0 10px;
+}
+    
+.big-card{
+    border:5px solid #793bff;
+    background-color: rgba(211, 211, 211, 0.9);
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.plus, .dots{
+    color: rgba(47, 79, 79, 0.815);
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-right: 1rem;
+
+}
+h4{
+    color: rgba(50, 83, 83, 0.993)
+}
+
+.nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.footer{
+    margin: 0 .5rem;
+    font-size: 1.25rem;
+    
+}
+.backlog{
+    position: absolute;
+    left: 500px;
+    top: 0px;
+}
